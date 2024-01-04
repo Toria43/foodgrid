@@ -126,6 +126,9 @@ h1, h2, h3, h4, h5, h6{
 .p-2{ padding: 2rem; }
 .p-3{ padding: 3rem; }
 
+.l-heading{
+    font-size: 3rem;
+}
 .list li{
     padding: .5rem 0;
     border-bottom: #555 dotted 1px;
@@ -134,6 +137,16 @@ h1, h2, h3, h4, h5, h6{
 
 .list li a:hover{
     color: var(--primary-color) !important;
+}
+
+.page-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2rem 0;
+    grid-gap: 1.5rem;
+}
+.page-container > *:first-child{
+    grid-row: 1 / span 3;
 }
 /*navigation*/
 #main-nav{
@@ -219,6 +232,37 @@ h1, h2, h3, h4, h5, h6{
 }
 #home-articles .articles-container > *:last-child{
     grid-column: 2 / span 2;
+}
+
+
+#article .meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem;
+}
+
+#article .meta .category{
+    margin-top: 0.4rem;
+}
+
+
+
+
+/*sign-up page*/
+.card .formstyle{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    padding: .5rem;
+    border: #f55;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+.card .formstyle .inp{
+    margin: 3rem 0;
 }
 
 #main-footer{
