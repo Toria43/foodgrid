@@ -271,7 +271,39 @@ h1, h2, h3, h4, h5, h6{
 .card .formstyle .inp{
     padding: 10rem 0;
 }
+/*button style*/
+.button-62 {
+    background: linear-gradient(to bottom right, #f55, #e78d55);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(175, 50, 224, 0.979), .125rem .125rem 1rem rgb(201, 111, 228);
+  }
+  
+  .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(253, 115, 72, 0.938), .125rem .125rem 1rem rgba(255, 173, 122, 0.925);
+  }
 
+
+  /*footer*/
 #main-footer{
     background: var(--dark-color);
     color: #fff;
