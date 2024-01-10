@@ -251,13 +251,20 @@ h1, h2, h3, h4, h5, h6{
 
 
 /*sign-up page*/
+.cardform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card .formstyle{
+    height: 50vh;
+    width: 350px;
     display: grid;
     justify-content: center;
     align-items: center;
     margin: 1.5rem;
     padding: 2.5rem;
-    background: rgb(207, 157, 207);
+    background: rgb(192, 118, 192);
     border-radius: 5px;
     border-color: #555;
 }
